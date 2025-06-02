@@ -11,7 +11,7 @@
 # Ignore Composer vendor directory
 /vendor/
 # Optional: ignore IDE settings
-/.idea/
+**/.idea/*
 
 # Ignore SQLite database file
 /data/*.db
