@@ -1,0 +1,21 @@
+{
+    "name": "aven/gw2-tracker-php",
+    "description": "A project for exploring gw2 material tracking and legendary crafting",
+    "type": "project",
+    "authors": [
+        {
+            "name": "J Robertson",
+            "email": "robertson.jordan.m@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "GW2Tracker\\": "classes/"
+        }
+    }
+
+}
